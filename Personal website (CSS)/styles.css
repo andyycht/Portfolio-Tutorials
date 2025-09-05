@@ -1,0 +1,161 @@
+
+h1 {
+    color: white;
+    font-family:'Sacramento', cursive;
+    font: size 5.5rem;
+    margin: 50px;
+}
+
+h2 {
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font: size 2.5rem;
+    padding-bottom: 10px;
+    margin: 50px;
+    background-color: cadetblue;
+}
+
+h3 {
+    font-family:'Montserrat', sans-serif;
+    background-color: rosybrown;
+}
+
+.main {
+
+text-align: center;
+margin: 0 auto;
+
+}
+.display-text{
+
+position: fixed;
+top: -60px;
+left: 70 px;
+
+}
+
+ul, ol {
+  list-style-position: inside; 
+}
+
+.busy {
+  width: 50px;
+  height: auto;
+}
+
+    hr{
+        border-style: dotted;
+        color: #eaf6f6;
+        border-width: 6px;
+        border-bottom: none;
+        width: 4%;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .hipervinculos {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+
+    }
+
+    .hipervinculos:hover {
+
+      color: green;
+    }
+
+    .logos{
+      border-width: 1px;
+      border-style:groove;
+      border-color: whitesmoke;
+      border-radius: 10px;
+      width:100px;
+      vertical-align: middle;
+      background-color:whitesmoke;
+
+    }
+
+    .submit{
+
+      background-color: cyan; 
+      color: black; 
+      width: 100px;
+    }
+    .submit:hover {
+      background-color: blue;
+    }
+
+    div{
+      background-color:cornflowerblue;
+    }
+
+    .column {
+    float: left;
+    width: 33.3%;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    box-sizing: border-box;
+
+    }
+
+    @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+    }
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-height: 500px;
+    }
+
+    .container {
+    padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .title {
+    color: black;
+    }
+
+    .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    .button:hover {
+    background-color: #555;
+    }
+
+    .forms{
+      
+      background-color: beige;
+      border-width: 1px;
+      border-style: dotted;
+    }
+
+    input{
+      background-color:rgb(241, 183, 214);
+      border-radius: 10px;
+    }
+
+    .clouds{
+      position: sticky;
+      top: 0; 
+      z-index: 10; 
+
+      }

@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+div{
+    
+    width: 200px;
+    height: 200px;
+
+}
+
+.rojo{
+    position:relative;
+    left: 400px;
+}
+
+.azul{
+    position: relative;
+    top:-200px;
+}
+
+.amarillo{
+    position: relative;
+    top: -400px;
+    left: 200px;
+}
+
+
