@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <img src="images/StarLion.png" alt="lion brewery" />
+    <h1>Welcome to my landing page</h1>
+
+    <form action="/login" method= "GET" id="nameForm">
+        <label>
+            <input type="checkbox" name="opcion1" value="valor1" id="usePost"> Post method
+        </label>
+        <br>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+        <input type="submit" />
+    </form>
+
+    <script>
+        const checkbox = document.getElementById('usePost');
+        const form = document.getElementById('nameForm');
+
+        form.addEventListener('submit', function (event) {
+            if (checkbox.checked) {
+                form.method = 'POST';
+            } else {
+                form.method = 'GET';
+            }
+        });
+    </script>
+
+</body>
+
+</html>

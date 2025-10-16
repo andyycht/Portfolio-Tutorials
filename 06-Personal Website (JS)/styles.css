@@ -1,0 +1,108 @@
+
+h1 {
+    font-family:'Sacramento', cursive;
+    font: size 5.5rem;
+    margin: 50px;
+}
+
+h2 {
+    font-family:'Sacramento', cursive;
+    font: size 2.5rem;
+    padding-bottom: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family:'Montserrat', sans-serif;
+}
+
+.main {
+
+text-align: center;
+margin: 0 auto;
+
+}
+.display-text{
+
+position: fixed;
+top: -60px;
+left: 70 px;
+
+}
+
+ul, ol {
+  list-style-position: inside; 
+}
+
+.busy {
+  width: 50px;
+  height: auto;
+}
+
+    .hipervinculos {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+
+    }
+
+    .hipervinculos:hover {
+
+      color: green;
+    }
+
+    .logos{
+     width:200px;
+    }
+
+    .column {
+    float: left;
+    width: 33.3%;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    box-sizing: border-box;
+
+    }
+
+    @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+    }
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-height: 500px;
+    }
+
+    .container {
+    padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .title {
+    color: black;
+    }
+
+    .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    .button:hover {
+    background-color: #555;
+    }

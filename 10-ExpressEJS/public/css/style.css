@@ -1,0 +1,25 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: beige !important;
+}
+
+#cubo {
+    position: relative;
+    min-height: 400px; 
+    overflow: hidden; 
+}
+
+#cubo img {
+    max-width: 512px;
+    width: auto;
+    height: auto;
+    object-fit: contain; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
