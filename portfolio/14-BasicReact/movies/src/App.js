@@ -1,7 +1,6 @@
 import sw from "./data/data.js";
 import { useState, useEffect } from "react";
 
-
 function App() {
   const [selectedMovie, setSelectedMovie] = useState(null);
    const [hoveredMovie, setHoveredMovie] = useState(null);
@@ -122,7 +121,7 @@ const Comments = (e) => {
             </div>
     
       ) : (
-    <p>No hay comentarios aún.</p>
+    <p>There are not any comments yet.</p>
   )}
       </div>
       </>
